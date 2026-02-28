@@ -1,0 +1,73 @@
+. cotainer4{
+    gap: 1rem;
+}
+.prev{
+
+    top: -1rem;
+    left: 1rem;
+    padding: 1rem;
+}
+.card-background{
+    background:#F9F9F9 ;
+}
+/* ===== Mobile Doctors Section Styling ===== */
+@media (max-width: 768px) {
+    /* Container adjustments */
+    .doctors-section {
+        padding: 20px 10px;
+    }
+
+    .cotainer4 h2 {
+        font-size: 1.4rem !important;
+        text-align: center;
+    }
+
+    /* Scroll container adjustments */
+    .doctor-scroll-container {
+        gap: 12px !important;
+        padding: 10px !important;
+        overflow-x: auto !important;
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .doctor-scroll-container::-webkit-scrollbar {
+        display: none; /* Chrome/Safari */
+    }
+
+    /* Doctor card adjustments */
+    .doctor-card {
+        flex: 0 0 80% !important;
+        min-height: 400px !important;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    .doctor-card h2 {
+        font-size: 1.2rem !important;
+    }
+
+    .doctor-card p {
+        font-size: 0.95rem !important;
+    }
+
+    /* Prev/Next buttons */
+    .prev {
+        justify-content: center !important;
+        gap: 12px;
+    }
+
+    .prev button {
+        padding: 10px 16px !important;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+
+    /* Description box */
+    .doctors-section > .container > div:last-child {
+        margin-top: 15px;
+        font-size: 0.95rem;
+        text-align: left;
+    }
+}

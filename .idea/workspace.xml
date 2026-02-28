@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f520eeeb-d3c0-4b34-82ff-cec7e78c20bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/Pediatrics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/assay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bone_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/brain_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/download.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/healtcare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/heart_rate_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hospital7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hospital_building.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Book_appointment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Doctorsform.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Servicesform.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/css/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/css/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/css/doctors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/css/services.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/essentials/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/essentials/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AdminDashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/adminlogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="30zucpuerMT2EUsEqk2RoAKx0Hz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/danej/dev-chronicles-frontend",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danej\desire-specialist-hospital-ui\src\components" />
+      <recent name="C:\Users\danej\desire-specialist-hospital-ui\src\components\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danej\desire-specialist-hospital-ui\public\images" />
+      <recent name="C:\Users\danej\desire-specialist-hospital-ui\public" />
+      <recent name="C:\Users\danej\desire-specialist-hospital-ui\src\components\css" />
+      <recent name="C:\Users\danej\desire-specialist-hospital-ui\src\components\images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f520eeeb-d3c0-4b34-82ff-cec7e78c20bb" name="Changes" comment="" />
+      <created>1754642809390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754642809390</updated>
+      <workItem from="1754642812143" duration="34529000" />
+      <workItem from="1754818132085" duration="43251000" />
+      <workItem from="1755177096266" duration="2701000" />
+      <workItem from="1756119701838" duration="2239000" />
+      <workItem from="1757531824248" duration="184000" />
+      <workItem from="1759074420704" duration="413000" />
+      <workItem from="1759144556739" duration="83000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
