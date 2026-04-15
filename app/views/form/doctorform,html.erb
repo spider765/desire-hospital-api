@@ -1,0 +1,43 @@
+<%# This is the form for creating or editing a Doctor, including an image upload field. %>
+<%# The `local: true` option is used to ensure the form submits via a traditional POST request, %>
+<%# which is necessary for file uploads. Rails automatically sets `multipart/form-data` when it finds a `file_field`. %>
+
+<%# This form has been reverted to use standard Rails conventions. %>
+<%# The form_with helper will automatically infer that it should submit to %>
+<%# the DoctorsController based on the @doctor model. %>
+<%= form_with(model: @doctor, local: true) do |form| %>
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :specialty %>
+    <%= form.text_field :specialty %>
+  </div>
+
+  <div class="field">
+    <%= form.text_field :specialty %>
+    <%= form.label :description %>
+    <%= form.text_area :description %>
+  </div>
+
+  <%# This is the file field for the image upload. The `:image` attribute must match %>
+  <%# the `has_one_attached :image` declaration in your Doctor model. %>
+  <div class="field">
+    <%= form.label :image, "Upload Profile Image" %>
+    <%= form.file_field :image %>
+  </div>
+
+  <%# Optional: For an "edit" form, you might want to show the current image. %>
+  <% if @doctor.image.attached? %>
+    <div class="current-image">
+      <p>Current Image:</p>
+      <%= image_tag @doctor.image %>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

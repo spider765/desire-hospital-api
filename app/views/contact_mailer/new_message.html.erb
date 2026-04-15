@@ -1,0 +1,14 @@
+<div style="font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9;">
+  <h2 style="color: #2E7D32;">New Contact Message</h2>
+  <p><strong>Name:</strong> <%= @message.name %></p>
+  <p><strong>Email:</strong> <%= @message.email %></p>
+  <p><strong>Message:</strong></p>
+  <p style="background-color: #fff; padding: 10px; border-radius: 6px; border: 1px solid #ddd;">
+    <%= @message.body %>
+  </p>
+</div>
+<a href="<%= rails_admin.show_path(model_name: 'message', id: @message.id, host: Rails.application.routes.default_url_options[:host]) %>"
+   style="display: inline-block; margin-top: 20px; background-color: #2E7D32; color: #fff;
+          padding: 10px 20px; text-decoration: none; border-radius: 8px;">
+  View in Admin
+</a>
