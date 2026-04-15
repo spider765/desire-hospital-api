@@ -7,14 +7,16 @@ require "active_record/railtie"
 require "action_controller/railtie"
 require "action_mailer/railtie"
 require "action_view/railtie"
+require "action_cable/engine" # 👈 Add this back for RailsAdmin/Devise JS
+require "sprockets/railtie"    # 👈 Ensure this is here if using propshaft/sprockets
 
-# ❌ REMOVE THESE FOR NOW (they cause Render issues)
+# Keep these commented out if you aren't using them:
 # require "active_storage/engine"
 # require "action_mailbox/engine"
 # require "action_text/engine"
-# require "action_cable/engine"
 
 Bundler.require(*Rails.groups)
+# ... rest of file
 
 module DesireSpecialistHospitalApi
   class Application < Rails::Application
