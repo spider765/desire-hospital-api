@@ -28,7 +28,8 @@ module DesireSpecialistHospitalApi
     # middleware (safe minimal set)
     config.middleware.use ActionDispatch::Cookies
     config.middleware.use ActionDispatch::Session::CookieStore, key: "_session"
-
+    onfig.middleware.use ActionDispatch::Flash # <--- ADD THIS (Crucial for RailsAdmin)
+    config.middleware.use Rack::MethodOverride  # <--- ADD THIS (Required for non-GET forms)
     config.autoload_lib(ignore: %w[assets tasks])
 
     config.staff_email = "danejukwo11@gmail.com"

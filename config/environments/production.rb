@@ -2,7 +2,15 @@ require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
+# 1. This is the most important line for a blank page on Render
+  # It tells Rails to actually serve the CSS/JS files from the public folder
+  config.public_file_server.enabled = true
 
+  # 2. Allow Sprockets to compile assets in production if they were missed
+  config.assets.compile = true
+
+  # 3. Ensure assets are fingerprinted so the browser doesn't cache old versions
+  config.assets.digest = true
   # Code is not reloaded between requests.
   config.enable_reloading = false
 
