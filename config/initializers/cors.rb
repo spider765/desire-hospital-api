@@ -4,7 +4,8 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     origins "http://localhost:3000",
             "https://desire-hospital-ui-c5mn.vercel.app",
             "https://desire-hospital-ui-c5mn-o7qhw1fqm-spider765s-projects.vercel.app",
-            "https://desire-hospital-ui-c5mn-ooxqdnac2-spider765s-projects.vercel.app"
+            "https://desire-hospital-ui-c5mn-ooxqdnac2-spider765s-projects.vercel.app",
+            "https://desire-hospital-ui-c5mn-a0i8yeadx-spider765s-projects.vercel.app"
     resource "*",
       headers: :any,
       methods: [ :get, :post, :put, :patch, :delete, :options, :head ],
